@@ -1,0 +1,8 @@
+uuid: e8564578-2d97-4b4e-bb08-07aace307b8d
+langcode: en
+status: true
+dependencies: {  }
+id: articles_notes
+label: 'Articles Notes'
+revision: 0
+description: ''

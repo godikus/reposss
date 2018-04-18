@@ -1,0 +1,45 @@
+uuid: df04f46c-6d63-4bd7-9603-5f0b9a7a7541
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_zvorotnogo_zv_azku
+    - field.field.contact_message.forma_zvorotnogo_zv_azku.field_im_a
+    - field.field.contact_message.forma_zvorotnogo_zv_azku.field_povidomlenna
+    - field.field.contact_message.forma_zvorotnogo_zv_azku.field_vas_email_adres
+id: contact_message.forma_zvorotnogo_zv_azku.default
+targetEntityType: contact_message
+bundle: forma_zvorotnogo_zv_azku
+mode: default
+content:
+  field_im_a:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_povidomlenna:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_vas_email_adres:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

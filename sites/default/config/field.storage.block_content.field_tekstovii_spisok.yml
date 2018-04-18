@@ -1,0 +1,30 @@
+uuid: 9692a896-acc9-4936-ad0c-f18e668472a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_tekstovii_spisok
+field_name: field_tekstovii_spisok
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Гульчук
+      label: Гульчук
+    -
+      value: Юрій
+      label: Юрій
+    -
+      value: Миколайович
+      label: Миколайович
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

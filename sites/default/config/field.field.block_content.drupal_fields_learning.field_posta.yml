@@ -1,0 +1,19 @@
+uuid: 70035a3b-4f19-4958-bf55-ed65b2bc932a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_posta
+id: block_content.drupal_fields_learning.field_posta
+field_name: field_posta
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Пошта
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

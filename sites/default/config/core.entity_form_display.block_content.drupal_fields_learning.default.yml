@@ -1,0 +1,106 @@
+uuid: 72b98094-c8b6-40b7-86e9-9ee3be70833a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.field.block_content.drupal_fields_learning.field_cile_cislo
+    - field.field.block_content.drupal_fields_learning.field_cislovii_spisok
+    - field.field.block_content.drupal_fields_learning.field_data
+    - field.field.block_content.drupal_fields_learning.field_data_ta_cas
+    - field.field.block_content.drupal_fields_learning.field_pole_dla_tekstu_plain
+    - field.field.block_content.drupal_fields_learning.field_pole_dla_tekstu_plain_long
+    - field.field.block_content.drupal_fields_learning.field_posta
+    - field.field.block_content.drupal_fields_learning.field_tekstovii_spisok
+    - field.field.block_content.drupal_fields_learning.field_zobrazenna
+    - field.field.block_content.drupal_fields_learning.field_zovnisne_posilanna
+    - image.style.thumbnail
+  module:
+    - datetime
+    - image
+    - link
+id: block_content.drupal_fields_learning.default
+targetEntityType: block_content
+bundle: drupal_fields_learning
+mode: default
+content:
+  field_cile_cislo:
+    weight: 30
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_cislovii_spisok:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_data:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_data_ta_cas:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_pole_dla_tekstu_plain:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pole_dla_tekstu_plain_long:
+    weight: 35
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_posta:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_tekstovii_spisok:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_zobrazenna:
+    weight: 33
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_zovnisne_posilanna:
+    weight: 29
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

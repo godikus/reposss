@@ -1,0 +1,19 @@
+uuid: 1435c739-0927-4120-bf0c-a98a956f4cc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.articles_notes
+    - field.storage.block_content.field_nomer_mobilnogo
+id: block_content.articles_notes.field_nomer_mobilnogo
+field_name: field_nomer_mobilnogo
+entity_type: block_content
+bundle: articles_notes
+label: 'Номер мобільного'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

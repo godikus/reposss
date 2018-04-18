@@ -1,0 +1,8 @@
+uuid: 8a67eef9-0e70-41a7-aebc-050d0ed8b729
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_file
+label: 'PDF File'
+revision: 0
+description: ''

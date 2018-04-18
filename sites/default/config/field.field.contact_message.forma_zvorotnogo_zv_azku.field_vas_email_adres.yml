@@ -1,0 +1,19 @@
+uuid: f8e4100c-5078-421c-a9ad-be4be6f8489d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_zvorotnogo_zv_azku
+    - field.storage.contact_message.field_vas_email_adres
+id: contact_message.forma_zvorotnogo_zv_azku.field_vas_email_adres
+field_name: field_vas_email_adres
+entity_type: contact_message
+bundle: forma_zvorotnogo_zv_azku
+label: 'Ваш email адрес'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

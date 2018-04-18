@@ -1,0 +1,19 @@
+uuid: 74f12ea0-8350-4e6d-a15b-d7455c1afd1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_pole_dla_tekstu_plain_long
+id: block_content.drupal_fields_learning.field_pole_dla_tekstu_plain_long
+field_name: field_pole_dla_tekstu_plain_long
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Поле для тексту plain long'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

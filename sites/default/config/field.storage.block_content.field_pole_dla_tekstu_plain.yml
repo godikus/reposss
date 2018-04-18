@@ -1,0 +1,21 @@
+uuid: 9562d304-4d22-4804-90b7-1e7e4c8d7eea
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_pole_dla_tekstu_plain
+field_name: field_pole_dla_tekstu_plain
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

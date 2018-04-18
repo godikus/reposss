@@ -1,0 +1,19 @@
+uuid: 98066296-544b-4d6a-90ff-27647977c818
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_zvorotnogo_zv_azku
+    - field.storage.contact_message.field_povidomlenna
+id: contact_message.forma_zvorotnogo_zv_azku.field_povidomlenna
+field_name: field_povidomlenna
+entity_type: contact_message
+bundle: forma_zvorotnogo_zv_azku
+label: Повідомлення
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

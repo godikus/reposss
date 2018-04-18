@@ -1,0 +1,41 @@
+uuid: 325ec9a1-bac5-45eb-af7f-5df7cb5acffc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_file
+    - field.field.block_content.pdf_file.field_opis_dla_pdf
+    - field.field.block_content.pdf_file.field_pdf
+  module:
+    - file
+    - text
+id: block_content.pdf_file.default
+targetEntityType: block_content
+bundle: pdf_file
+mode: default
+content:
+  field_opis_dla_pdf:
+    weight: 27
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_pdf:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

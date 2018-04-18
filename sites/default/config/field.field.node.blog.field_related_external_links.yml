@@ -1,0 +1,28 @@
+uuid: c8cfc3cb-7f5e-4e6a-85c2-2174c2ed8c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_external_links
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_related_external_links
+field_name: field_related_external_links
+entity_type: node
+bundle: blog
+label: 'Related external links'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://docs.google.com/presentation/d/1s3hrNb31dcsojr-BvjLZmWy4fhiNEZDQW235rekALkg/edit#slide=id.g13842eeb80_0_128'
+    title: 'Презентація №2'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

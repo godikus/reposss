@@ -1,0 +1,25 @@
+uuid: 923acd10-8d3c-4141-bfa4-112b2a5833ac
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drupal_fields_learning:df966054-e0f6-40c0-92d7-410371b6f37e'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: drupalfieldslearning
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:df966054-e0f6-40c0-92d7-410371b6f37e'
+settings:
+  id: 'block_content:df966054-e0f6-40c0-92d7-410371b6f37e'
+  label: 'Drupal Fields Learning'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

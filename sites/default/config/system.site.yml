@@ -1,0 +1,14 @@
+uuid: b9e8f686-f68e-4245-82cc-f5000076766d
+name: Yura_drupal
+mail: isoldikus@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

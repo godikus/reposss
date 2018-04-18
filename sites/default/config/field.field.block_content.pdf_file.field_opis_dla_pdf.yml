@@ -1,0 +1,22 @@
+uuid: e7070de8-9469-4eb7-a196-ce1fabd1cf64
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_file
+    - field.storage.block_content.field_opis_dla_pdf
+  module:
+    - text
+id: block_content.pdf_file.field_opis_dla_pdf
+field_name: field_opis_dla_pdf
+entity_type: block_content
+bundle: pdf_file
+label: 'Опис для pdf'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

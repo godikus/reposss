@@ -1,0 +1,12 @@
+uuid: 566d6e8d-62be-473e-ba3f-4d42e40a771a
+langcode: en
+status: true
+dependencies: {  }
+id: forma_zvorotnogo_zv_azku
+label: 'Форма зворотнього зв''язку'
+recipients:
+  - isoldikus@gmail.com
+reply: ''
+weight: 0
+message: 'Ваше повідомлення надіслано!'
+redirect: ''

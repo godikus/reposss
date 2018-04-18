@@ -1,0 +1,31 @@
+uuid: c4017e58-04c8-46fe-9000-03b609373a47
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:24e8672b-3b91-48b5-83dd-08bc31808122'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: madeinyura
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:24e8672b-3b91-48b5-83dd-08bc31808122'
+settings:
+  id: 'block_content:24e8672b-3b91-48b5-83dd-08bc31808122'
+  label: 'Made in Yura'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

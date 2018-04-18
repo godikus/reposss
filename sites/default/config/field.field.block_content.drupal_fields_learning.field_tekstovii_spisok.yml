@@ -1,0 +1,21 @@
+uuid: 6dfae558-fc2c-49bd-9b08-cb7b17cbde44
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_tekstovii_spisok
+  module:
+    - options
+id: block_content.drupal_fields_learning.field_tekstovii_spisok
+field_name: field_tekstovii_spisok
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Текстовий список'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

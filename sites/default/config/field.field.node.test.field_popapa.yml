@@ -1,0 +1,21 @@
+uuid: a5f1d6ee-04d1-43eb-a2c7-961930f7dd8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_popapa
+    - node.type.test
+  module:
+    - datetime
+id: node.test.field_popapa
+field_name: field_popapa
+entity_type: node
+bundle: test
+label: Попапа
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

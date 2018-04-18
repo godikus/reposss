@@ -1,0 +1,19 @@
+uuid: c73401c4-6a5a-470f-b82c-20c851626fa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_zvorotnogo_zv_azku
+    - field.storage.contact_message.field_im_a
+id: contact_message.forma_zvorotnogo_zv_azku.field_im_a
+field_name: field_im_a
+entity_type: contact_message
+bundle: forma_zvorotnogo_zv_azku
+label: 'Ім''я'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

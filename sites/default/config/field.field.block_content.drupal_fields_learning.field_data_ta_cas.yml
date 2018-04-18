@@ -1,0 +1,24 @@
+uuid: fe76dde5-71ae-4e2f-86b8-11adbfec732e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_data_ta_cas
+  module:
+    - datetime
+id: block_content.drupal_fields_learning.field_data_ta_cas
+field_name: field_data_ta_cas
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Дата та час'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

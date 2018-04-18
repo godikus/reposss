@@ -1,0 +1,8 @@
+uuid: 291e09e7-7a2d-489e-875c-e1f8503f808a
+langcode: en
+status: true
+dependencies: {  }
+id: drupal_fields_learning
+label: 'Drupal Fields Learning'
+revision: 0
+description: ''

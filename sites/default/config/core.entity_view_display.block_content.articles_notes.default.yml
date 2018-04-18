@@ -1,0 +1,31 @@
+uuid: fe1f885e-1b77-4a2c-b816-eb7d21bc43b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.articles_notes
+    - field.field.block_content.articles_notes.field_nomer_mobilnogo
+    - field.field.block_content.articles_notes.field_tekstove_pole_formatted
+  module:
+    - text
+id: block_content.articles_notes.default
+targetEntityType: block_content
+bundle: articles_notes
+mode: default
+content:
+  field_nomer_mobilnogo:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tekstove_pole_formatted:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

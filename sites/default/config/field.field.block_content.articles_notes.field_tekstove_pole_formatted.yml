@@ -1,0 +1,21 @@
+uuid: db51827a-b3e3-4846-8ac7-7c8ccdce2239
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.articles_notes
+    - field.storage.block_content.field_tekstove_pole_formatted
+  module:
+    - text
+id: block_content.articles_notes.field_tekstove_pole_formatted
+field_name: field_tekstove_pole_formatted
+entity_type: block_content
+bundle: articles_notes
+label: 'Текстове поле formatted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

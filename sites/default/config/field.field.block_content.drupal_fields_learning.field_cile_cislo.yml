@@ -1,0 +1,23 @@
+uuid: c34e9229-a48a-4b70-8043-c00c55c3e597
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_cile_cislo
+id: block_content.drupal_fields_learning.field_cile_cislo
+field_name: field_cile_cislo
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Ціле число'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 99
+  prefix: ''
+  suffix: ''
+field_type: integer

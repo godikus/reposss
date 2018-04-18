@@ -1,0 +1,21 @@
+uuid: 8186d207-d73e-439c-8492-f267d109e2f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spisok_cilih_cisel
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_spisok_cilih_cisel
+field_name: field_spisok_cilih_cisel
+entity_type: node
+bundle: blog
+label: 'Список цілих чисел'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
